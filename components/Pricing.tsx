@@ -91,8 +91,12 @@ const Pricing: React.FC = () => {
               Garanta sua vaga nas Turmas ENEM 2026
             </h3>
             <p className="text-gray-300 mb-8 text-lg">
-              Quem reservar vaga até 31 de dezembro garante descontos especiais para 2026.
+              Reserve sua vaga até 31 de dezembro e garanta descontos especiais para 2026.
             </p>
+              <ul className="text-gray-300 text-xl mb-10 space-y-1">
+                <li>30% de desconto até 31/12 para alunos novos</li>
+                <li>50% de desconto até 31/12 para alunos Áurea</li>
+              </ul>
             <a 
               href={LINKS.RESERVATION} 
               target="_blank" 
