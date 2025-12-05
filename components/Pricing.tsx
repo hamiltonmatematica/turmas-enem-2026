@@ -7,7 +7,7 @@ const Pricing: React.FC = () => {
     <section className="py-24 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-title text-4xl md:text-5xl text-aurea-dark mb-4">GUIA DE PREÇOS</h2>
+          <h2 className="font-title text-4xl md:text-5xl text-aurea-dark mb-4">TABELA DE INVESTIMENTOS</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Investimento transparente e flexível para o seu futuro.
           </p>
@@ -95,7 +95,6 @@ const Pricing: React.FC = () => {
             </p>
               <ul className="text-gray-300 text-xl mb-10 space-y-1">
                 <li>30% de desconto até 31/12 para alunos novos</li>
-                <li>50% de desconto até 31/12 para alunos Áurea</li>
               </ul>
             <a 
               href={LINKS.RESERVATION} 

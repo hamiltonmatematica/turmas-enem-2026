@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
           rel="noopener noreferrer"
           className="group relative inline-flex items-center gap-3 bg-aurea-orange text-white px-8 py-4 rounded-full text-lg font-bold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,91,5,0.4)]"
         >
-          Reservar minha vaga com desconto
+          Reservar minha vaga com o desconto especial
           <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </a>
       </div>

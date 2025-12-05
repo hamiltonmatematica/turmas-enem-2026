@@ -10,7 +10,6 @@ export const LINKS = {
 
 const COMMON_FEATURES = [
   "30% de desconto até 31/12 (alunos novos)",
-  "50% de desconto até 31/12 (alunos áurea)",
   "Acesso a plataforma Áurea Prime",
   "Sistema de Ensino Geekie 2026",
   "Bolsa de 100% nos cursos de redação e matemática",
@@ -24,7 +23,6 @@ const COMMON_FEATURES = [
 // Removing Geekie One from the list for the plan that explicitly says "Sem Geekie One"
 const FEATURES_NO_GEEKIE = [
   "30% de desconto até 31/12 (alunos novos)",
-  "50% de desconto até 31/12 (alunos áurea)",
   "Acesso a plataforma Áurea Prime",
   "Bolsa de 100% nos cursos de redação e matemática",
   "Coleção Inteligência Áurea (5 volumes)",
@@ -77,7 +75,7 @@ export const BENEFITS = [
   {
     icon: BookOpen,
     title: 'Material Gratuito',
-    description: 'Todos os alunos estudam com material completo sem taxa de material.'
+    description: 'Todos os alunos estudam com material completo e sem taxa extra.'
   },
   {
     icon: GraduationCap,
@@ -136,9 +134,9 @@ export const SCHEDULE_ITEMS = [
   { label: 'Acesso ao sistema Geekie One', check: true },
   { label: 'Acesso à Plataforma Áurea Prime', check: true },
   { label: 'Coleção Inteligência Áurea com 5 volumes', check: true },
-  { label: 'Dez simulados completos e oito simulados compactos', check: true },
+  { label: '10 simulados completos e 8 simulados compactos', check: true },
   { label: 'Diagnóstico TRI individual', check: true },
-  { label: 'Planejamento', check: true },
+  { label: 'Planejamento e Mentoria', check: true },
   { label: 'Acompanhamento pela Iara no WhatsApp', check: true },
   { label: 'Sem taxa de material', check: true },
 ];
@@ -146,12 +144,12 @@ export const SCHEDULE_ITEMS = [
 export const DIFFERENTIALS = [
   {
     icon: Layout,
-    title: "Três formatos de preparação",
+    title: "3 formatos de preparação",
     text: "Presencial, Online ao vivo ou Gravada com planejamento semanal"
   },
   {
     icon: Clock,
-    title: "Dois ciclos de preparação",
+    title: "2 ciclos de preparação",
     text: "Ciclo 1 no primeiro semestre (conteúdo) e Ciclo 2 no segundo semestre (competências habilidades e questões)"
   },
   {
