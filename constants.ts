@@ -41,6 +41,8 @@ export const PRICING_CARDS = [
     priceInstallment: '10 x R$ 850,00',
     recommended: false,
     features: COMMON_FEATURES,
+    paymentLinkCash: 'https://www.asaas.com/c/xaskr3x8o3tugwx5',
+    paymentLinkInstallment: 'https://www.asaas.com/c/hsvlaorh3qrt72ym',
   },
   {
     id: 'vespertino',
@@ -50,6 +52,8 @@ export const PRICING_CARDS = [
     priceInstallment: 'De 10 x R$ 560,00',
     recommended: false,
     features: COMMON_FEATURES,
+    paymentLinkCash: 'https://www.asaas.com/c/ravxiop3q79gyns1',
+    paymentLinkInstallment: 'https://www.asaas.com/c/99ai3erjvqnio12q',
   },
   {
     id: 'online_geekie',
@@ -59,6 +63,8 @@ export const PRICING_CARDS = [
     priceInstallment: '10 x R$ 370,00 ',
     recommended: false,
     features: COMMON_FEATURES,
+    paymentLinkCash: 'https://www.asaas.com/c/75br2sudswdun28w',
+    paymentLinkInstallment: 'https://www.asaas.com/c/kjdvdv7esinr87vq',
   },
   {
     id: 'online_simple',
@@ -68,6 +74,8 @@ export const PRICING_CARDS = [
     priceInstallment: '10 x R$ 180,00',
     recommended: false,
     features: FEATURES_NO_GEEKIE,
+    paymentLinkCash: 'https://www.asaas.com/c/kzf248d799y4wrrl',
+    paymentLinkInstallment: 'https://www.asaas.com/c/p7l1pe0d0e5skdyx',
   },
 ];
 

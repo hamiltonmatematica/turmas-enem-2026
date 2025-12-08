@@ -15,13 +15,12 @@ const Pricing: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 items-start">
           {PRICING_CARDS.map((card) => (
-            <div 
+            <div
               key={card.id}
-              className={`relative bg-white rounded-2xl p-6 transition-all duration-300 flex flex-col h-full ${
-                card.recommended 
-                  ? 'border-2 border-aurea-blue shadow-xl scale-100 xl:scale-105 z-10' 
+              className={`relative bg-white rounded-2xl p-6 transition-all duration-300 flex flex-col h-full ${card.recommended
+                  ? 'border-2 border-aurea-blue shadow-xl scale-100 xl:scale-105 z-10'
                   : 'border border-gray-100 shadow-lg hover:shadow-xl'
-              }`}
+                }`}
             >
               {card.recommended && (
                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-aurea-blue text-white px-4 py-1 rounded-full text-sm font-bold tracking-wide uppercase shadow-lg">
@@ -58,20 +57,19 @@ const Pricing: React.FC = () => {
               </div>
 
               <div className="space-y-3 mt-auto">
-                <a 
-                  href={LINKS.RESERVATION} 
+                <a
+                  href={card.paymentLinkCash || LINKS.RESERVATION}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`block w-full py-3 px-4 rounded-xl text-center font-bold transition-colors ${
-                    card.recommended 
-                      ? 'bg-aurea-blue text-white hover:bg-blue-700' 
+                  className={`block w-full py-3 px-4 rounded-xl text-center font-bold transition-colors ${card.recommended
+                      ? 'bg-aurea-blue text-white hover:bg-blue-700'
                       : 'bg-aurea-dark text-white hover:bg-gray-800'
-                  }`}
+                    }`}
                 >
                   Quero à vista
                 </a>
-                <a 
-                  href={LINKS.RESERVATION} 
+                <a
+                  href={card.paymentLinkInstallment || LINKS.RESERVATION}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full py-3 px-4 rounded-xl text-center font-bold border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors"
@@ -93,12 +91,12 @@ const Pricing: React.FC = () => {
             <p className="text-gray-300 mb-8 text-lg">
               Reserve sua vaga até 31 de dezembro e garanta descontos especiais para 2026.
             </p>
-              <ul className="text-gray-300 text-xl mb-10 space-y-1">
-                <li>30% de desconto até 31/12 para alunos novos</li>
-              </ul>
-            <a 
-              href={LINKS.RESERVATION} 
-              target="_blank" 
+            <ul className="text-gray-300 text-xl mb-10 space-y-1">
+              <li>30% de desconto até 31/12 para alunos novos</li>
+            </ul>
+            <a
+              href={LINKS.RESERVATION}
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-aurea-dark px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors"
             >
