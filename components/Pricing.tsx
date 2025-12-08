@@ -18,8 +18,8 @@ const Pricing: React.FC = () => {
             <div
               key={card.id}
               className={`relative bg-white rounded-2xl p-6 transition-all duration-300 flex flex-col h-full ${card.recommended
-                  ? 'border-2 border-aurea-blue shadow-xl scale-100 xl:scale-105 z-10'
-                  : 'border border-gray-100 shadow-lg hover:shadow-xl'
+                ? 'border-2 border-aurea-blue shadow-xl scale-100 xl:scale-105 z-10'
+                : 'border border-gray-100 shadow-lg hover:shadow-xl'
                 }`}
             >
               {card.recommended && (
@@ -62,11 +62,11 @@ const Pricing: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`block w-full py-3 px-4 rounded-xl text-center font-bold transition-colors ${card.recommended
-                      ? 'bg-aurea-blue text-white hover:bg-blue-700'
-                      : 'bg-aurea-dark text-white hover:bg-gray-800'
+                    ? 'bg-aurea-blue text-white hover:bg-blue-700'
+                    : 'bg-aurea-dark text-white hover:bg-gray-800'
                     }`}
                 >
-                  Quero à vista
+                  Quero à vista com 30% de desconto
                 </a>
                 <a
                   href={card.paymentLinkInstallment || LINKS.RESERVATION}
@@ -74,7 +74,7 @@ const Pricing: React.FC = () => {
                   rel="noopener noreferrer"
                   className="block w-full py-3 px-4 rounded-xl text-center font-bold border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors"
                 >
-                  Quero parcelar
+                  Quero parcelado com 30% de desconto
                 </a>
               </div>
             </div>
