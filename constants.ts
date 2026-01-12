@@ -9,7 +9,7 @@ export const LINKS = {
 };
 
 const COMMON_FEATURES = [
-  "30% de desconto até 31/12 (alunos novos)",
+  "22% de desconto até 20/01 (alunos novos)",
   "Acesso a plataforma Áurea Prime",
   "Sistema de Ensino Geekie 2026",
   "Bolsa de 100% nos cursos de redação e matemática",
@@ -22,7 +22,7 @@ const COMMON_FEATURES = [
 
 // Removing Geekie One from the list for the plan that explicitly says "Sem Geekie One"
 const FEATURES_NO_GEEKIE = [
-  "30% de desconto até 31/12 (alunos novos)",
+  "22% de desconto até 20/01 (alunos novos)",
   "Acesso a plataforma Áurea Prime",
   "Bolsa de 100% nos cursos de redação e matemática",
   "Coleção Inteligência Áurea (5 volumes)",

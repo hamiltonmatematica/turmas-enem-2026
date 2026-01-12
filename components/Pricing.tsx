@@ -66,7 +66,7 @@ const Pricing: React.FC = () => {
                     : 'bg-aurea-dark text-white hover:bg-gray-800'
                     }`}
                 >
-                  Quero à vista com 30% de desconto
+                  Quero à vista com 22% de desconto
                 </a>
                 <a
                   href={card.paymentLinkInstallment || LINKS.RESERVATION}
@@ -74,7 +74,7 @@ const Pricing: React.FC = () => {
                   rel="noopener noreferrer"
                   className="block w-full py-3 px-4 rounded-xl text-center font-bold border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors"
                 >
-                  Quero parcelado com 30% de desconto
+                  Quero parcelado com 22% de desconto
                 </a>
               </div>
             </div>
@@ -89,10 +89,10 @@ const Pricing: React.FC = () => {
               Garanta sua vaga nas Turmas ENEM 2026
             </h3>
             <p className="text-gray-300 mb-8 text-lg">
-              Reserve sua vaga até 31 de dezembro e garanta descontos especiais para 2026.
+              Reserve sua vaga até 20 de janeiro e garanta descontos especiais para 2026.
             </p>
             <ul className="text-gray-300 text-xl mb-10 space-y-1">
-              <li>30% de desconto até 31/12 para alunos novos</li>
+              <li>22% de desconto até 20/01 para alunos novos</li>
             </ul>
             <a
               href={LINKS.RESERVATION}
