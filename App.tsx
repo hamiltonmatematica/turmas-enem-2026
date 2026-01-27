@@ -6,10 +6,12 @@ import Details from './components/Details';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import WelcomeModal from './components/WelcomeModal';
 
 const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col w-full overflow-x-hidden">
+      <WelcomeModal />
       <main className="flex-grow">
         <Hero />
         <Features />
